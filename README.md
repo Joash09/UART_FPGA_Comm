@@ -12,7 +12,7 @@ The program is simple. After the bitstream is loaded, it will print "Hello" to t
 
 The testbench and module first transmit "Hello" and then will echo any other character entered (in this case X"77"). 
 
-!(Vivado Simualtion)[UART_Sim.png]
+!(Vivado Simualtion)[./UART_Sim.png]
 
 ## Control PC and Minicom Setup
 
@@ -20,6 +20,10 @@ I used the [Minicom](https://wiki.emacinc.com/wiki/Getting_Started_With_Minicom#
 
 `
 minicom -D /dev/ttyUSB1 ttyUSB1 " Open minicom
+
+
 <Cr>A + z " Access minicom settings
+
+
 O " Open serial settings
 `
