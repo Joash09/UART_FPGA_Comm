@@ -2,7 +2,7 @@
 
 Joash Naidoo
 
-This project was done to learn how to implement from scratch UART serial communication on a FPGA. The hope is to reuse these modules for future projects. The code was implemented on a Digilent Arty A7-35 (100 Mhz system clock) board and the control PC ran Ubuntu 18.04. Baud rate is set to 9600. The project was written in Vivado 2017.4 and I used the Vivado Sythesis and Simulation tools. 
+This project was done to learn how to implement from scratch UART serial communication on a FPGA. The hope is to reuse these modules for future projects. The code was implemented on a Digilent Arty A7-35 (100 Mhz system clock) board and the control PC ran Ubuntu 18.04. Baud rate is set to 9600. The project was written in Vivado 2017.4 and I used the Vivado Sythesis and Simulation tools. No additional IP cores were used.
 
 ## What it does
 
@@ -12,7 +12,7 @@ The program is simple. After the bitstream is loaded, it will print "Hello" to t
 
 The testbench and module first transmit "Hello" and then will echo any other character entered (in this case X"77"). 
 
-[[UART_Sim.png]]
+!(Vivado Simualtion)[UART_Sim.png]
 
 ## Control PC and Minicom Setup
 
