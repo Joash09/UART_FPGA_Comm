@@ -12,7 +12,7 @@ The program is simple. After the bitstream is loaded, it will print "Hello" to t
 
 The testbench and module first transmit "Hello" and then will echo any other character entered (in this case X"77"). 
 
-!(Vivado Simualtion)[./UART_Sim.png]
+!(Vivado Simualtion)[https://github.com/Joash09/UART_FPGA_Comm/blob/master/UART_Sim.png]
 
 ## Control PC and Minicom Setup
 
